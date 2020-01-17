@@ -124,5 +124,3 @@ workflows:
       - test-node-13 # current
       - test-jest-circus
       - test-browser
-      - test-or-deploy-website:
-          filters: *filter-ignore-gh-pages
